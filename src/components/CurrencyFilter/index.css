@@ -1,0 +1,20 @@
+.currency-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+.currency-list__item {
+  display: block;
+}
+
+.currency-list__item button {
+  background-color: transparent;
+
+  border: 2px solid #eee;
+}
+
+.currency-list__item_active button {
+  border-color: lightblue;
+}
